@@ -1,4 +1,21 @@
-# Το αρχείο N-Triples με τα δεδομένα του ωρολογίου προγράμματος
-# και τις δηλώσεις rdf:type για κάθε οντότητα.
-
-
+_:0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Year> . 
+_:0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Dialexh> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/patelh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Professor> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/epixhrein> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Course> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/aith1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Class> . 
+_:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Year> . 
+_:1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Dialexh> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/mylonas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Professor> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/texniti> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Course> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/aith2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Class> . 
+_:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Year> . 
+_:2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Dialexh> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/aulonitis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Professor> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/stoxastikes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Course> . 
+_:3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Year> . 
+_:3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Dialexh> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/tsoxou> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Professor> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/security> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Course> . 
+<http://dilab77.ionio.gr/swp/vlachos/resource/aith3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Class> . 
+_:4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Year> . 
+_:4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dilab77.ionio.gr/swp/vlachos/vocab#Dialexh> . 
