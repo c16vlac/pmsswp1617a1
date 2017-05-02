@@ -1,4 +1,26 @@
-# Το αρχείο Turtle του λεξιλογίου RDFS που περιγράφει
-# τις κλάσεις και τις ιδιότητες του ωρολογίου προγράμματος.
-
-
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX vlac: <http://dilab77.ionio.gr/swp/vlachos/vocab#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+vlac:Professor rdf:type rdfs:Class .
+vlac:Year rdf:type rdfs:Class .
+vlac:Dialexh rdf:type rdfs:Class .
+vlac:Course rdf:type rdfs:Class .
+vlac:Class rdf:type rdfs:Class .
+vlac:Professor rdfs:subClassOf foaf:Person .
+vlac:year rdf:type rdf:Property .
+vlac:professor rdf:type rdf:Property .
+vlac:dialexh rdf:type rdf:Property .
+vlac:course rdf:type rdf:Property .
+vlac:class rdf:type rdf:Property .
+vlac:year rdfs:domain vlac:Year .
+vlac:professor rdfs:domain vlac:Professor .
+vlac:course rdfs:domain vlac:Course .
+vlac:class rdfs:domain vlac:Class .
+vlac:dialexh rdfs:domain vlac:Dialexh .
+vlac:professor rdfs:range vlac:Professor .
+vlac:course rdfs:range vlac:Course .
+vlac:class rdfs:range vlac:Class .
+vlac:year  rdfs:range xsd:string .
+vlac:dialexh rdfs:range xsd:date .
